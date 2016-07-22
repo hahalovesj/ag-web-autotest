@@ -28,7 +28,7 @@ import org.testng.ITestResult;
 
 
 /**
- * @author xy-incito-wy
+ * @author Shane
  * @Description 包装所有selenium的操作以及通用方法，简化用例中代码量
  * */
 public class SeleniumUtil {
@@ -148,6 +148,7 @@ public class SeleniumUtil {
 	public String getAttributeText(By elementLocator, String attribute) {
 		return driver.findElement(elementLocator).getAttribute(attribute).trim();
 	}
+	
 
 	/**
 	 * 包装清除操作

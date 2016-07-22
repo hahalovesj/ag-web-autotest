@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 页面对象配置文档
+
+object所有子节点中：一级节点名称为页面简称，二级节点名称为页面具体对象类型简称
+
+		   		      页面对象节点，type为对象识别属性。value为识别属性的具体值
+ -->
+
+<对象>
+
+	<引导页>
+	
+		<窗口> <type>id</type> <value>div_popup</value> </窗口>	
+	    <北京> <type>xpath</type> <value>//span[@id='selectcity_1_1']</value> </北京>  
+	    <上海> <type>xpath</type> <value>//span[@id='selectcity_210_210']</value> </上海>    
+	    <广州> <type>xpath</type> <value>//span[@id='selectcity_838_838']</value> </广州>
+	    <关闭> <type>id</type> <value>span_close</value> </关闭>	
+        
+    </引导页>
+
+
+	<首页>	
+		<首页> <type>linkText</type> <value>首页</value> </首页>		
+		<自由行> <type>linkText</type> <value>自由行</value> </自由行>			
+		<国内自由行> <type>linkText</type> <value>国内自由行</value> </国内自由行>		
+		<出境自由行> <type>linkText</type> <value>出境自由行</value> </出境自由行>		
+		<跟团> <type>linkText</type> <value>跟团游</value> </跟团>				
+		<国内跟团游> <type>linkText</type> <value>国内跟团游</value> </国内跟团游>		
+		<出境跟团游> <type>linkText</type> <value>出境跟团游</value> </出境跟团游>		
+		<抢优惠> <type>partialLinkText</type> <value>特价</value> </抢优惠>		
+		<海岛游> <type>linkText</type> <value>海岛度假</value> </海岛游>		
+		<邮轮> <type>linkText</type> <value>邮轮</value> </邮轮>		
+		<机票> <type>partialLinkText</type> <value>国际航线</value> </机票>	
+		<户外旅行> <type>partialLinkText</type> <value>户外旅行</value> </户外旅行>	
+		<亲子旅行> <type>linkText</type> <value>亲子旅行</value> </亲子旅行>
+		<高端旅行> <type>linkText</type> <value>高端旅行</value> </高端旅行>
+		<签证> <type>linkText</type> <value>签证</value> </签证>		
+		<门票> <type>linkText</type> <value>门票</value> </门票>		
+		<定制> <type>partialLinkText</type> <value>热门</value> </定制>		
+		<高端> <type>linkText</type> <value>高端旅游</value> </高端>																						
+		<欢迎信息> <type>className</type> <value>welcome</value> </欢迎信息>	
+		<登录> <type>linkText</type> <value>请登录</value> </登录>
+		<退出> <type>linkText</type> <value>[ 退出 ]</value> </退出>		
+		<注册> <type>linkText</type> <value>免费注册</value> </注册>		
+		<我的订单> <type>xpath</type> <value>//div[@class='menu-hd clearfix']/a/span[text()='我的订单']</value> </我的订单>
+		<度假订单> <type>linkText</type> <value>旅游度假订单</value> </度假订单>		
+		<机票订单> <type>linkText</type> <value>机票订单</value> </机票订单>		
+		<门票订单> <type>linkText</type> <value>门票订单</value> </门票订单>
+		<出发地> <type>id</type> <value>lydj_departCityName</value> </出发地>
+		<目的地> <type>id</type> <value>lydj_arriveCityName</value></目的地>
+		<搜索> <type>id</type> <value>lydj_a</value></搜索>
+		<上方下拉框链接> <type>xpath</type> <value>//div[@class='menu-bd menu-list hidden']/div//a</value></上方下拉框链接>
+		<导航栏链接> <type>xpath</type> <value>//div[@class='inner_menu clearfix']//a</value></导航栏链接>
+		<抢优惠产品链接> <type>xpath</type> <value>//div[@class='name']/a</value></抢优惠产品链接>
+		<特价机票链接> <type>xpath</type> <value>//div[@class='flyticket']//a</value></特价机票链接>
+		<热门签证链接> <type>xpath</type> <value>//div[@id='div_qianzheng']//a</value></热门签证链接>
+		<当地游链接> <type>xpath</type> <value>//div[@id='div_dangdiyou']//a</value></当地游链接>
+		<遨游社区链接> <type>xpath</type> <value>//div[@id='div_shequ']//a</value></遨游社区链接>
+		<右边栏促销活动链接> <type>xpath</type> <value>//div[@class='tc']/div/div//a</value></右边栏促销活动链接>
+		<右边热门目的地链接> <type>xpath</type> <value>//div[@class='sc chujing_sc']//a</value></右边热门目的地链接>
+        <推荐好玩链接> <type>xpath</type> <value>//div[@class='baike']/div/div//a</value></推荐好玩链接>
+        <游记链接> <type>xpath</type> <value>//div[@id='div_youji']/div//a[3]</value></游记链接>
+        <下方购买指南链接> <type>xpath</type> <value>//div[@class='help clearfix']/div//a</value></下方购买指南链接>
+        <下方出境旅游加热门出发地> <type>xpath</type> <value>//div[@class='tc clearfix']/a</value></下方出境旅游加热门出发地>
+        <关于我们链接> <type>xpath</type> <value>//div[@class='foot']/div[@class='maps']//a</value></关于我们链接>
+        <所有图片> <type>xpath</type> <value>//img</value></所有图片>
+        <互通卡> <type>linkText</type> <value>互通卡</value></互通卡>
+        <海岛旅游> <type>xpath</type> <value>//span[@class='tabs_span']//span[text()='海岛旅游']</value></海岛旅游>
+        <海岛旅游出发地> <type>id</type> <value>hdly_departCityName</value></海岛旅游出发地>
+        <海岛旅游目的地> <type>id</type> <value>hdly_arriveCityName</value></海岛旅游目的地>
+        <三亚> <type>xpath</type> <value>//div[@class='item']/a[text()='三亚']</value></三亚>
+        <周边游> <type>xpath</type> <value>//span[@class='tabs_span']//span[text()='周边游']</value></周边游>
+        <周边游目的地> <type>id</type> <value>ddy_arriveCityName</value></周边游目的地>
+        <周边游搜索> <type>id</type> <value>ddy_a</value></周边游搜索>
+        <机票旅游> <type>xpath</type> <value>//span[@class='tabs_span']//span[text()='机票']</value></机票旅游>
+        <出发城市> <type>id</type> <value>jp_departCityName</value></出发城市>
+        <到达城市> <type>id</type> <value>jp_arriveCityName</value></到达城市>
+        <出发时间> <type>id</type> <value>jp_departTime</value></出发时间>
+        <机票搜索> <type>id</type> <value>jp_a</value></机票搜索>
+        <门票旅游> <type>xpath</type> <value>//span[@class='tabs_span']//span[text()='门票']</value></门票旅游>
+        <门票目的地> <type>id</type> <value>mp_arriveCityName</value></门票目的地>
+        <门票搜索> <type>id</type> <value>btnSearchMP</value></门票搜索>
+	</首页>
+		
+		
+	<登陆页>
+			
+		<用户名> <type>id</type> <value>loginname</value> </用户名>
+		<密码> <type>className</type> <value>login-input2</value> </密码>
+		<提交> <type>id</type> <value>btnlogin</value> </提交>
+		<忘记密码> <type>linkText</type> <value>忘记密码？</value> </忘记密码>
+		<注册> <type>linkText</type> <value>免费注册</value> </注册>
+		<找回密码> <type>xpath</type> <value>//a[@class='find']</value>  </找回密码>	
+		<立即注册> <type>id</type> <value>regBtn</value>  </立即注册>	
+
+	</登陆页>
+	
+	<会员中心> 
+		<参团订单> <type>linkText</type> <value>参团订单</value> </参团订单>
+		<订单状态> <type>className</type> <value>my-orderBoxBtn</value> </订单状态>
+		<取消订单> <type>linkText</type> <value>取消订单</value> </取消订单>
+		<确认取消> <type>id</type> <value>a_confirm</value> </确认取消>
+		<取消订单原因> <type>id</type> <value>txtOtherDetail</value> </取消订单原因>
+		<度假订单信息> <type>xpath</type> <value>//li[@class='my-orderBoxName']/a</value></度假订单信息>
+		<查看订单> <type>xpath</type> <value>//span[@class='my-orderBoxOperatingOther']/a</value></查看订单>
+		<左侧菜单栏> <type>xpath</type> <value>//dd[@class='siderbar-dd']/a</value></左侧菜单栏>
+		<左侧菜单栏2> <type>xpath</type> <value>//dd[@class='siderbar-dd isLogin']/a</value></左侧菜单栏2>
+		<邮轮订单> <type>linkText</type> <value>邮轮订单</value> </邮轮订单>
+		<单项订单> <type>linkText</type> <value>单项订单</value> </单项订单>
+		<没有订单信息> <type>xpath</type> <value>//div[@class='orderMain']/span</value> </没有订单信息>
+		<页数> <type>xpath</type> <value>//ul[@id='ul_pageindex']/li</value></页数>
+		<机票订单> <type>linkText</type> <value>机票订单</value></机票订单>
+	</会员中心>
+	
+	
+	<国内自由行页>
+		
+		<产品内容信息><type>className</type> <value>content_right</value></产品内容信息>
+		<当月特惠信息> <type>className</type> <value>ThemeTravel_blocktop2</value> </当月特惠信息>
+		<当月特惠产品链接> <type>xpath</type> <value>//div[@class='ThemeTravel_blocktop2']/ul/li//a</value> </当月特惠产品链接>
+		<热门线路信息> <type>xpath</type> <value>//div[contains(@id,'Adcontent')]</value> </热门线路信息>
+		<热门线路产品链接> <type>xpath</type> <value>//div[contains(@id,'Adcontent')]/div[@class='featuredProduct_block_link']/a</value> </热门线路产品链接>
+		<右侧边栏信息> <type>className</type> <value>right</value> </右侧边栏信息>
+		<新品推荐链接> <type>xpath</type> <value>//div[@class='Excitactiviti']//a</value> </新品推荐链接>
+		<抢优惠链接> <type>xpath</type> <value>//div[@class='aoyouqyh']//a</value> </抢优惠链接>
+
+	</国内自由行页>
+	
+	<度假产品查询页>
+		<搜索标题><type>xpath</type> <value>//div[@class='clearfix lvyou']/h1</value></搜索标题>
+		<全部> <type>xpath</type> <value>//div[@class='search_tab clearfix']/a[1]</value> </全部>
+		<自由行> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href , '-t1/')]</value> </自由行>
+		<跟团> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t2/')]</value> </跟团>
+		<邮轮> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t4/')]</value> </邮轮>
+		<耀悦> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t7/')]</value> </耀悦>
+		<签证> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t9/')]</value> </签证>
+		<周边游><type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t10/')]</value></周边游>
+		<其他> <type>xpath</type> <value>//div[@class='search_tab clearfix']//a[contains(@href,'-t6/')]</value></其他>
+		<目的地>  <type>xpath</type> <value>//input[@class='fl search-input']</value> </目的地>
+		<最早出发>  <type>id</type> <value>search_begindate</value> </最早出发>
+		<最晚出发>  <type>id</type> <value>search_enddate</value> </最晚出发>
+		<去度假> <type>xpath</type> <value>//a[@class='fl search-btn']</value> </去度假>
+		<产品出发信息> <type>xpath</type> <value>//span[contains(text(),'出发城市：')]</value> </产品出发信息>
+		<产品标题> <type>xpath</type> <value>//a[@class='product-box-right-title']</value> </产品标题>
+		<重新搜索> <type>xpath</type> <value>//a[@class='reSSBtn']</value> </重新搜索>
+		<立即预定> <type>xpath</type> <value>//a[@class='product-box-right-priceBtn product-box-right-priceBtn2 marginLeft90']</value> </立即预定>
+		<多机多酒预定> <type>xpath</type> <value>//span[text()=机酒可选]/../../a</value> </多机多酒预定>
+		<限时抢购><type>xpath</type> <value>//div[@class='xs-box marginTop10 clearfix']</value></限时抢购>
+	    <限时抢购链接><type>xpath</type> <value>//div[@class='xs-box-main']/div/a[1]</value></限时抢购链接>
+	    <产品内容信息><type>xpath</type> <value>//div[@class='search-left clearfix']</value></产品内容信息>
+	    <产品><type>xpath</type> <value>//div[@class='product-list paddingBottom20 clearfix']/div[contains(@class,'product-box')]</value></产品>
+	    <网上支付价格><type>xpath</type> <value>//span[@class='product-box-right-priceOnline al']</value></网上支付价格>
+	    <价格排序><type>xpath</type> <value>//ul[@class='search-nav-ul clearfix']/li[4]/a</value></价格排序>
+	    <出发城市筛选> <type>xpath</type> <value>//a[@data-prefix='b']</value> </出发城市筛选>
+	    <更多城市><type>xpath</type> <value>//a[@class='screening-content-boxRight-more more_btn']</value></更多城市>
+	    <目的地筛选> <type>xpath</type> <value>//a[@data-prefix='l']</value> </目的地筛选>
+	    <天数筛选> <type>xpath</type> <value>//a[@data-prefix='sd']</value> </天数筛选>
+	   	<假期筛选> <type>xpath</type> <value>//a[@data-prefix='sf']</value> </假期筛选>
+	   	<产品图片>  <type>xpath</type> <value>//div[@class='product-list paddingBottom20 clearfix']//img</value>  </产品图片>
+	   	<页数链接> <type>xpath</type> <value>//div[@class='act marginTop20']/a</value> </页数链接>
+	   	<翻页跳转> <type>id</type> <value>txtPageTo</value> </翻页跳转>
+	   	<下一页> <type>linkText</type> <value>下一页</value> </下一页>
+	   	<首页搜索产品链接> <type>xpath</type> <value>//div[@class='product-list paddingBottom20 clearfix']/div[contains(@class,'product-box')]/a</value></首页搜索产品链接>
+	    <度假旅游搜索起始地信息> <type>className</type> <value>date</value></度假旅游搜索起始地信息>
+	    <周边游搜索产品链接> <type>xpath</type> <value>//div[@class='dx_name']/a</value></周边游搜索产品链接>
+	    <机票搜索产品信息> <type>xpath</type> <value>//div[@class='result-wrapper clearfix']</value></机票搜索产品信息>
+	    <起飞城市> <type>className</type> <value>depart-time</value></起飞城市>
+	    <到达城市> <type>className</type> <value>arrive-time</value></到达城市>
+	    <门票搜索产品信息> <type>xpath</type> <value>//div[@class='tt']/a</value></门票搜索产品信息>
+	    <门票目的地> <type>className</type> <value>def_txt</value></门票目的地>
+	    <预定单项产品> <type>className</type> <value>btn_ljzf</value></预定单项产品>	 
+	    <确认> <type>id</type> <value>search_timeok_btn</value> </确认>   
+	    <相关目的地> <type>xpath</type> <value>//span[@class='tit']</value> </相关目的地>
+	</度假产品查询页>
+	
+	<出境自由行页>
+	    <产品内容信息><type>className</type> <value>content_right</value></产品内容信息>
+	    <热卖产品链接><type>xpath</type> <value>//div[@class='ThemeTravel_blocktop']/ul/li//a</value></热卖产品链接>
+	    <其余产品推荐链接><type>xpath</type> <value>//div[@class='featuredProduct_block_link']//a</value></其余产品推荐链接>
+	    <其余产品链接><type>xpath</type> <value>//div[@class='featuredProduct_block']/ul/li//a</value></其余产品链接>
+	    <抢优惠链接><type>xpath</type> <value>//div[@class='right']/a</value></抢优惠链接>
+	</出境自由行页>
+	
+	<搜索页>
+	    <精选产品链接> <type>xpath</type> <value>//div[contains(@class,'tuiJian_list')]/h3/a</value></精选产品链接>
+	    <其他链接> <type>xpath</type> <value>//div[@class='baoZhang_list clearfix ']//a</value></其他链接>
+	    
+	</搜索页>
+	
+	<如是户外页>
+	    <如是专题链接> <type>xpath</type> <value>//div[@class='refer']/ul/li/a</value></如是专题链接>
+	    <如是旅行链接> <type>xpath</type> <value>//div[@class='list-1']/ul/li/a</value></如是旅行链接>
+	    <如是赛事链接> <type>xpath</type> <value>//div[@class='activities']/ul/li/a</value></如是赛事链接>
+	    <价格> <type>xpath</type> <value>//div[@class='price']/span</value></价格>
+	</如是户外页>
+	
+	<国内跟团游页>
+	      <产品内容信息><type>className</type> <value>content_right</value></产品内容信息>
+	      <热卖线路产品链接> <type>xpath</type> <value>//div[@class='ThemeTravel_blocktop']/ul/li//a</value> </热卖线路产品链接>
+		  <推荐线路产品链接> <type>xpath</type> <value>//div[contains (@id,'Adcontent')]/div[@class='featuredProduct_block_link']/a</value> </推荐线路产品链接>
+	      <右边栏每周一荐链接><type>xpath</type> <value>//div[@class='group_intropre fontsize12']/a</value></右边栏每周一荐链接>
+	      <抢优惠链接><type>xpath</type> <value>//div[@class='aoyouqyh']/a</value></抢优惠链接>
+	</国内跟团游页>
+	
+	<产品详情页>
+	       <产品标题> <type>xpath</type> <value>//h1[@class='fl mainTitle-h1']</value> </产品标题>
+	       <低价日历> <type>xpath</type> <value>//div[@id='CalendarDiv']/div/table</value> </低价日历>
+	       <日历月份><type>xpath</type> <value>//a[contains(@id,'monthTag')]</value></日历月份>
+	       <日历价格><type>xpath</type> <value>//table[@class='calendar-table' or @class='calendar-table ']//td[@class='on']/a/em[@class='price']</value></日历价格>
+	       <低价价格链接> <type>xpath</type> <value>//table[contains(@class,'calendar-table')]//td[@class='on']/a</value> </低价价格链接>
+		   <成人数> <type>id</type> <value>adult</value> </成人数>
+		   <儿童数> <type>id</type> <value>child</value> </儿童数>
+		   <下一步> <type>id</type> <value>next</value> </下一步>
+	       <下一个月><type>xpath</type> <value>//a[contains(@class,'fr calendarMonthsNext')]</value></下一个月>
+	       <产品特色><type>id</type> <value>cpts</value></产品特色>
+	       <遨游价><type>id</type> <value>aoyouPrice</value></遨游价>
+	       <遨游价2><type>xpath</type> <value>//div[@class='productInfoBox-price-aoyou']/em</value></遨游价2>
+	       <市场价><type>xpath</type> <value>//p[@class='productInfoBox-price-offline']/span</value></市场价>
+	       <产品说明><type>className</type> <value>cpdetail_con</value></产品说明>
+	       <底部推荐产品链接><type>xpath</type> <value>//dd[@class='cpdetail_tuijian_list_r fl']/h3/a</value></底部推荐产品链接>
+	       <景点链接> <type>xpath</type> <value>//a[contains(@href,'http://www.aoyou.com/jingdian/')]</value> </景点链接>
+	       <邮轮选择框> <type>xpath</type> <value>//table[@id='divSeats1']//div[@class='xuanze']</value></邮轮选择框>
+	       <立即预定> <type>id</type> <value>btnBooking</value></立即预定>
+	</产品详情页>
+	
+	<填单页>	
+		<联系人> <type>id</type> <value>txtlinkname</value> </联系人>
+		<旅客信息> <type>xpath</type> <value>//div[@class='each clearfix']</value> </旅客信息>
+		<姓名> <type>xpath</type> <value>//input[contains(@id,'txtTravellerName')]</value> </姓名>
+		<证件类型> <type>xpath</type> <value>//select[contains(@id,'selIDCardType')]</value> </证件类型>
+		<证件号> <type>xpath</type> <value>//input[contains(@id,'iptcardno')]</value> </证件号>
+		<手机号> <type>xpath</type> <value>//input[contains(@id,'txtTravelerMobile')]</value> </手机号>
+		<出生日期> <type>xpath</type> <value>//input[contains(@id,'txtbirth')]</value> </出生日期>
+		<下一步> <type>id</type> <value>btnSubmit</value> </下一步>
+		<下一步2> <type>id</type> <value>btnnextstep</value> </下一步2>
+		<产品编号> <type>className</type> <value>number</value> </产品编号>
+		<产品标题> <type>xpath</type> <value>//div[@class='box-tc-item name']</value> </产品标题>
+		<合计> <type>id</type> <value>spPayInfoLast</value> </合计>
+		<已阅读订单信息> <type>id</type> <value>ckBookConfirm</value> </已阅读订单信息>	
+		<合同内容> <type>xpath</type> <value>//div[@class='inner inner1']</value> </合同内容>
+		<二次确认提示><type>xpath</type> <value>//div[@class='confirm_r']</value></二次确认提示>
+		<稍后提供> <type>xpath</type> <value>//input[contains(@name,'radIsOfferInfo') and @value='0']</value> </稍后提供>	
+	<!-- 	<旅行证件号> <type>xpath</type> <value>//input[contains(@id,'iptpassportno')]</value> </旅行证件号>
+		<旅行证件有效期> <type>xpath</type> <value>//input[contains(@id,'txtPassportDate')]</value> </旅行证件有效期>
+		<旅行证件签发地> <type>xpath</type> <value>//input[contains(@id,'txtpassportplace')]</value> </旅行证件签发地>
+ -->
+	</填单页>
+	
+	<支付页>
+		<产品编号> <type>id</type> <value>spanCode</value> </产品编号>
+		<产品标题> <type>id</type> <value>divPName</value> </产品标题>
+		<订单号> <type>className</type> <value>ddh</value> </订单号>
+		<待支付金额> <type>id</type> <value>divPayInfoUnFinishedCost</value> </待支付金额>
+	</支付页>
+	
+	<抢优惠产品详情页>
+
+		<产品标题> <type>className</type> <value>h1_tt</value> </产品标题>
+
+	</抢优惠产品详情页>
+	
+	
+	<出境跟团游页>
+	       <产品内容信息><type>className</type> <value>content_right</value></产品内容信息>
+	       <热卖线路产品链接> <type>xpath</type> <value>//div[@class='ThemeTravel_blocktop']/ul/li//a</value> </热卖线路产品链接>
+		   <精品线路产品链接> <type>xpath</type> <value>//div[contains(@id,'Adcontent')]/div[@class='featuredProduct_block_link']/a</value> </精品线路产品链接>
+	       <抢优惠链接><type>xpath</type> <value>//div[@class='group_aoyouqyh']/a</value></抢优惠链接>
+	</出境跟团游页>
+	
+	<签证页>
+	    <热门签证链接> <type>xpath</type> <value>//div[@class='hot']/div/div//a</value></热门签证链接>
+	    <查看所有签证链接> <type>xpath</type> <value>//div[@class='hot']/div/a</value></查看所有签证链接>
+	    
+	</签证页>	
+	
+	<耀悦页>
+	    <主题链接> <type>xpath</type> <value>//div[@class='contentWrapper']/ul/li/a</value></主题链接>
+	    <热卖链接> <type>xpath</type> <value>//div[@class='owl-wrapper']/div/div/div/div/a</value></热卖链接>
+	</耀悦页>
+	
+	<互通卡页> 
+	    <快速通道链接> <type>xpath</type> <value>//div[@class='hutong-express clearfix']/a</value></快速通道链接>
+	    <常见问题链接> <type>xpath</type> <value>//div[@class='hutong-faq-box borderTopf5f8fb clearfix']/ul/li/a</value></常见问题链接>
+	    <数量> <type>id</type> <value>input_num2646</value></数量>
+	    <立即购买> <type>className</type> <value>htk_total_btn</value></立即购买>
+	    <合计> <type>id</type> <value>totalPriceShow</value></合计>
+	    <购卡种类> <type>id</type> <value>NoBindCard</value></购卡种类>
+	    <联系人姓名> <type>id</type> <value>hutongCardLinkName</value></联系人姓名>
+	    <身份证> <type>id</type> <value>txtIDCardNo</value></身份证>
+	    <收卡人姓名> <type>id</type> <value>txtReceiveName</value></收卡人姓名>
+	    <手机号> <type>id</type> <value>txtReceiveMobile</value></手机号>
+	    <收卡地址> <type>id</type> <value>txtReceiveAddress</value></收卡地址>
+	    <邮编> <type>id</type> <value>txtPostCode</value></邮编>
+	    <确认> <type>id</type> <value>chkHutongCardItem</value></确认>
+	    <立即支付> <type>id</type> <value>btnSubmit</value></立即支付>
+	    <订单编号> <type>id</type> <value>spanCode</value></订单编号>
+	    <待支付> <type>xpath</type> <value>//div[@id='divPayInfoUnFinishedCost']/span[@class='price']</value></待支付>
+	    
+	</互通卡页>
+	
+	<海岛游页>
+	       <热门分类链接> <type>xpath</type> <value>//ul[@class='news_list']//li/a</value></热门分类链接>
+	       <最抢手链接> <type>xpath</type> <value>//div[@id='dis']/dl/dd/div/a</value></最抢手链接>
+	       <推荐产品链接> <type>xpath</type> <value>//div[@class='tt']/a</value></推荐产品链接>
+	       <海岛游产品信息> <type>xpath</type> <value>//div[@class='wrap clearfix']</value></海岛游产品信息>
+	
+	</海岛游页>
+	<机票页>
+	       <航空公司> <type>className</type> <value>airline-name</value></航空公司>
+	       <等待图标> <type>id</type> <value>imgwaiting</value> </等待图标>
+	       <预定> <type>xpath</type> <value>//div[@class='btn-ore']/a[text()='预 订']</value></预定>
+	       <展开> <type>xpath</type> <value>//a[@class='btn-link more_carrier']//span[text()='展开']</value></展开>
+	       <川航复选框> <type>xpath</type> <value>//div[@class='custom-checkbox']/span[@data-value='3U']/span</value></川航复选框>
+	       <机票特价产品链接> <type>xpath</type> <value>//ul[@class='ticket-list clearfix']/li/a</value></机票特价产品链接>
+	       <机票热门产品链接> <type>xpath</type> <value>//ul[@class='clearfix']/li/a</value></机票热门产品链接>
+	       <旅游产品推荐链接> <type>xpath</type> <value>//div[@id='divlispecialtoBJS']/div[2]/div/div/div/a</value></旅游产品推荐链接>
+	</机票页>
+	<机票填单页>
+	        <乘机人姓名> <type>id</type> <value>guestname1</value></乘机人姓名>
+	        <证件类型> <type>id</type> <value>selguestcard1</value></证件类型>
+	        <军官证> <type>xpath</type> <value>//div[@id='popguestcard1']/div//span[text()='军官证']</value></军官证>
+	        <证件号码> <type>id</type> <value>guestcardNo1</value></证件号码>
+	        <出生日期> <type>id</type> <value>guestBirthday1</value></出生日期>
+	        <联系人姓名> <type>id</type> <value>lxrName</value></联系人姓名>
+	        <下一步> <type>id</type> <value>SubNext</value></下一步>
+	        <机票信息> <type>xpath</type> <value>//div[@class='inner_txt clearfix']//div[2]</value></机票信息>
+	        <合计> <type>id</type> <value>TotalMoney</value></合计>
+	        <提交订单> <type>id</type> <value>SubNext</value></提交订单>
+	</机票填单页>
+	
+	<机票支付页>
+	       <产品名称> <type>id</type> <value>divPName</value></产品名称>
+	       <订单号> <type>className</type> <value>ddh</value></订单号>
+	       <待支付> <type>xpath</type> <value>//div[@id='divPayInfoUnFinishedCost']//span[@class='price']</value></待支付>
+	</机票支付页>     
+	
+	<邮轮页>
+	       <推荐产品链接> <type>xpath</type> <value>//div[contains(@class,'tuiJian_list2')]/h3/a</value></推荐产品链接>
+	</邮轮页>
+
+	
+	<门票页>
+	       <景点> <type>id</type> <value>Searchinput</value></景点>
+	       <搜索> <type>linkText</type> <value>点击搜索</value></搜索>
+	       <预定> <type>xpath</type> <value>//span[@class='ydcp_table_message']/a</value></预定>
+	       <景点名称> <type>className</type> <value>box-tc-item</value></景点名称>
+	       <使用日期> <type>id</type> <value>ticketdate0</value></使用日期>
+	       <选择日期> <type>xpath</type> <value>//div[@id='calender0']/div[2]/div/span/p[@class='pay']</value></选择日期>
+	       <姓名> <type>xpath</type> <value>//div[@class='ui-form-item ui-form-item-name']/input</value></姓名>
+	       <手机号> <type>xpath</type> <value>//div[@class='ui-form-item ui-form-item-birthdate']/input</value></手机号>
+	       <合计> <type>id</type> <value>blockTotalPrice</value></合计>
+	       <去支付> <type>id</type> <value>sbtn</value></去支付>
+	       <推荐产品链接> <type>xpath</type> <value>//div[@class='w-m-pbImg']/a</value></推荐产品链接>
+	
+	</门票页>
+	
+	<门票支付页>
+	       <订单编号> <type>xpath</type> <value>//div[@class='ui-box-product']/p[1]</value></订单编号>
+	       <产品名称> <type>xpath</type> <value>//div[@class='ui-box-product']/p[2]</value></产品名称>
+	       <待支付> <type>xpath</type> <value>//div[@id='divPayInfoUnFinishedCost']/span[@class='price']</value></待支付>
+	</门票支付页>
+	
+	<门票会员中心>
+	       <订单状态> <type>className</type> <value>my-orderBoxBtnPay</value></订单状态>
+	       <取消订单> <type>xpath</type> <value>//span[@class='my-orderBoxOperatingOther']/a[2]</value></取消订单>
+	</门票会员中心>
+	
+	<单项页>
+	       <人数> <type>id</type> <value>eCount</value></人数>
+	       <立即预定> <type>xpath</type> <value>//div[@class='item']/a[@class='btn']</value></立即预定>
+	       <邮箱> <type>id</type> <value>input_email</value></邮箱>
+	       <密码> <type>id</type> <value>input_password</value></密码>
+	       <联系人手机号> <type>id</type> <value>input_phone0</value></联系人手机号>
+	       <联系人姓名> <type>id</type> <value>input_name0</value></联系人姓名>
+	       <姓名> <type>id</type> <value>input_name1</value></姓名>
+	       <手机号> <type>id</type> <value>input_phone1</value></手机号>
+	       <身份证> <type>id</type> <value>input_zhengJianHao1</value></身份证>
+	       <确认> <type>id</type> <value>chb_instructions</value></确认>
+	       <下一步> <type>id</type> <value>btn_submit</value></下一步>
+	       <产品名称> <type>className</type> <value>name</value></产品名称>
+	       <产品单价> <type>className</type> <value>sum</value></产品单价>
+	       <合同内容> <type>className</type> <value>exclusive</value></合同内容>
+	       <下一步2> <type>id</type> <value>btn_nextPay</value></下一步2>
+	       <订单号> <type>id</type> <value>spanviewsdno</value></订单号>
+	       <订单总价> <type>xpath</type> <value>//div[@class='total']/span</value></订单总价>
+	       <订单名称> <type>xpath</type> <value>//div[@class='path']/div</value></订单名称>
+	</单项页>
+	
+	      
+</对象>

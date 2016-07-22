@@ -12,6 +12,10 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+
+import com.demo.test.base.Locator;
+import com.demo.test.functions.Action;
+import com.demo.test.utils.CheckPoint;
 import com.demo.test.utils.ExcelDataProvider;
 import com.demo.test.utils.LogConfiguration;
 import com.demo.test.utils.SeleniumUtil;
@@ -25,6 +29,9 @@ public class BaseParpare {
 	protected int timeOut = 0;
 	protected int sleepTime = 0;
 	protected int waitMillisecondsForAlert = 0;
+	protected Locator locator;
+	//protected Action action;
+	protected CheckPoint checkPoint;
 
 
 	@BeforeClass
